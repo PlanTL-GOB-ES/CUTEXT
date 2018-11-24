@@ -1,0 +1,7 @@
+NC|NP
+NC
+NP
+ADJ
+PREP|PREP/DEL
+VCLIger|VCLIinf|VCLIfin|VEadj|VEfin|VEger|VEinf|VHadj|VHfin|VHger|VHinf|VLadj|VLfin|VLger|VLinf|VMadj|VMfin|VMger|VMinf|VSadj|VSfin|VSger|VSinf
+PE
