@@ -26,39 +26,35 @@ SOFTWARE.
 
 
 /******************************************************************************************
-* Se encarga del almacenamiento y recuperacion del corpus
+* Se encarga del almacenamiento y recuperacion de los datos de usuario
 ******************************************************************************************/
 
 
 
 package cutext.prepro;
 
-import cutext.util.*;
+
 
 import java.util.*;
 import java.io.*;
 
 
 
-public class ARCorpus
+public class ARDatosEntrada
 {
-	
 	private static final long serialVersionUID = -7149755349268484907L;
 	
 	
-	ObjectOutputStream deEscribir; //guardar
-	ObjectInputStream deLeer;   //recuperar
+	ObjectOutputStream deEscribir; //para guardar de
+	ObjectInputStream deLeer;   //recuperar de
 
-	private final String D = ".." + Estaticos.FILE_SEP + "out" + Estaticos.FILE_SEP + "corpus" + Estaticos.FILE_SEP;
-	private final String N = "corpus";
-
-	public ARCorpus(String ar)
+	public ARDatosEntrada(String ar)
 	{
 		if(ar.equals("Guardar"))
 		{
 			try
 			{
-				deEscribir = new ObjectOutputStream(new FileOutputStream(D+N+DatosEntrada.out));
+				deEscribir = new ObjectOutputStream(new FileOutputStream(DatosEntrada.N + DatosEntrada.out));
 			}
 			catch(IOException e)
 			{
@@ -69,7 +65,7 @@ public class ARCorpus
 		{
 			try
 			{
-				deLeer = new ObjectInputStream(new FileInputStream(D+N+DatosEntrada.out));
+				deLeer = new ObjectInputStream(new FileInputStream(DatosEntrada.N + DatosEntrada.out));
 			}
 			catch(IOException e)
 			{
@@ -78,13 +74,13 @@ public class ARCorpus
 		}
 	}
 
-	public ARCorpus(String ar, String nombre)
+	public ARDatosEntrada(String ar, String nombre)
 	{
 		if(ar.equals("Guardar"))
 		{
 			try
 			{
-				deEscribir = new ObjectOutputStream(new FileOutputStream(D+nombre+DatosEntrada.out));
+				deEscribir = new ObjectOutputStream(new FileOutputStream(nombre + DatosEntrada.out));
 			}
 			catch(IOException e)
 			{
@@ -95,7 +91,7 @@ public class ARCorpus
 		{
 			try
 			{
-				deLeer = new ObjectInputStream(new FileInputStream(D+nombre+DatosEntrada.out));
+				deLeer = new ObjectInputStream(new FileInputStream(nombre + DatosEntrada.out));
 			}
 			catch(IOException e)
 			{
@@ -104,12 +100,12 @@ public class ARCorpus
 		}
 	}
 
-	//Guardar
-	public void guardar(Frase ser)
+	//Guardar de
+	public void guardar(DatosEntrada de)
 	{
 		try
 		{
-			deEscribir.writeObject(ser);
+			deEscribir.writeObject(de);
 		}
 		catch(IOException e)
 		{
@@ -117,12 +113,12 @@ public class ARCorpus
 		}
 	}
 
-	//Recuperar
-	public Frase recuperar()
+	//Recuperar de
+	public DatosEntrada recuperar()
 	{
 		try
 		{
-			return (Frase)deLeer.readObject();
+			return (DatosEntrada)deLeer.readObject();
 		}
 		catch(IOException e)
 		{
@@ -136,22 +132,5 @@ public class ARCorpus
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
