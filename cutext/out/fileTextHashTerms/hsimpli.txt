@@ -1,1 +1,107 @@
-
+resto de puntos|rest de punt|1|2.584962500721156|3|
+melanoma|melanom|4|4.0|1|
+adenopatia|adenopati|1|1.0|1|
+estadio pt|estadi pt|1|2.0|2|
+mitad de puntos|mit de punt|1|2.584962500721156|3|
+puntos seca|punt sec|1|2.0|2|
+cuero|cuer|2|2.0|1|
+ef nevus|ef nevus|1|2.0|2|
+exaferesis|exaferesis|1|1.0|1|
+color oscuro|color oscur|1|2.0|2|
+cirugia plastica|cirugi plastic|2|4.0|2|
+aspecto|aspect|1|1.0|1|
+brazo izqdo|braz izqdo|1|2.0|2|
+nevus|nevus|6|6.0|1|
+curas|cur|7|7.0|1|
+medicina|medicin|2|2.0|1|
+estadio|estadi|1|1.0|1|
+brazo|braz|3|3.0|1|
+tratamiento adyuvante|tratamient adyuv|1|2.0|2|
+adenopatia axilar|adenopati axil|1|2.0|2|
+topares|top|1|1.0|1|
+dermatologia|dermatologi|4|4.0|1|
+cirugia|cirugi|2|2.0|1|
+pt|pt|2|2.0|1|
+neoplasia|neoplasi|1|1.0|1|
+nuclea|nucl|1|1.0|1|
+breslow|breslow|1|1.0|1|
+salino|salin|1|1.0|1|
+cpa|cpa|1|1.0|1|
+informe|inform|2|2.0|1|
+centinela|centinel|2|2.0|1|
+prurito|prurit|2|2.0|1|
+ganglio centinela cura|gangli centinel cur|1|2.584962500721156|3|
+aão|aão|1|1.0|1|
+valoracion preferente|valoracion preferent|2|4.0|2|
+oncologia|oncologi|2|2.0|1|
+ilusiones|ilusion|1|1.0|1|
+extirpacion|extirpacion|2|2.0|1|
+informe oncologia|inform oncologi|1|2.0|2|
+resultado de melanoma|result de melanom|1|2.584962500721156|3|
+tratamiento|tratamient|2|2.0|1|
+dia|dia|1|1.0|1|
+parotideso libres|parot libr|1|2.0|2|
+puntos|punt|7|7.0|1|
+breston menor|breston menor|1|2.0|2|
+medicina nuclea|medicin nucl|1|2.0|2|
+breston|breston|2|2.0|1|
+revison|revison|1|1.0|1|
+malanocitico|malanocit|1|1.0|1|
+clarkiii|clarkiii|1|1.0|1|
+año|año|1|1.0|1|
+seguridad|segur|1|1.0|1|
+puntos cura|punt cur|1|2.0|2|
+melanoma malig|melanom malig|1|2.0|2|
+biopsia|biopsi|1|1.0|1|
+color|color|1|1.0|1|
+exploracion|exploracion|1|1.0|1|
+cura de puntos seca|cur de punt sec|1|3.0|4|
+lesion|lesion|2|2.0|1|
+hecho ilusiones|hech ilusion|1|2.0|2|
+en|en|1|1.0|1|
+ganglios centinelas parotideso|gangli centinel parot|1|2.584962500721156|3|
+extirpacion de ganglio|extirpacion de gangli|1|2.584962500721156|3|
+malig|malig|1|1.0|1|
+dermastologia|dermastologi|1|1.0|1|
+resultado|result|1|1.0|1|
+cuero cabelludo|cuer cabellud|2|4.0|2|
+nevus malanocitico|nevus malanocit|1|2.0|2|
+resto|rest|1|1.0|1|
+valoracion|valoracion|2|2.0|1|
+centro de salud|centr de salud|1|2.584962500721156|3|
+ganglio|gangli|2|2.0|1|
+aparicion de nevus|aparicion de nevus|1|2.584962500721156|3|
+centro|centr|1|1.0|1|
+piel|piel|1|1.0|1|
+tamaño|tamañ|1|1.0|1|
+brazo izquierdo|braz izquierd|2|4.0|2|
+nevus de color|nevus de color|1|2.584962500721156|3|
+dermastologia melanoma|dermastologi melanom|1|2.0|2|
+intervencion|intervencion|1|1.0|1|
+contraste|contr|1|1.0|1|
+tamaão|tamaã|1|1.0|1|
+cura seca|cur sec|2|4.0|2|
+melanoma nodular|melanom nodul|1|2.0|2|
+aparicion|aparicion|1|1.0|1|
+clark|clark|2|2.0|1|
+comento|coment|1|1.0|1|
+ampolla|ampoll|2|2.0|1|
+maãana|maã|1|1.0|1|
+anpx|anpx|1|1.0|1|
+hecho|hech|1|1.0|1|
+extension|extension|1|1.0|1|
+lesion ampolla|lesion ampoll|2|4.0|2|
+saludo|salud|2|2.0|1|
+lunar|lun|1|1.0|1|
+nevus de color oscuro|nevus de color oscur|1|3.0|4|
+mitosis|mitosis|1|1.0|1|
+dias|dias|1|1.0|1|
+bordes asimetricos|bord asimetr|2|4.0|2|
+derma|derm|1|1.0|1|
+parotideso|parot|1|1.0|1|
+bordes|bord|2|2.0|1|
+cura de puntos|cur de punt|2|5.169925001442312|3|
+mitad|mit|1|1.0|1|
+parotideso libres de neoplasia|parot libr de neoplasi|1|3.0|4|
+revision|revision|3|3.0|1|
+cpa pt|cpa pt|1|2.0|2|

@@ -1,0 +1,874 @@
+
+
+
+			File Created on 2018-11-24
+
+
+
+
+
+===== TERMS (sorted by c-value) =====
+
+
+Term: curas
+Lema: cur
+Cvalue: 7.0
+Frecuency: 7
+Length: 5
+
+
+
+Term: puntos
+Lema: punt
+Cvalue: 7.0
+Frecuency: 7
+Length: 6
+
+
+
+Term: nevus
+Lema: nevus
+Cvalue: 6.0
+Frecuency: 6
+Length: 5
+
+
+
+Term: cura de puntos
+Lema: cur de punt
+Cvalue: 5.169925001442312
+Frecuency: 2
+Length: 16
+
+
+
+Term: dermatologia
+Lema: dermatologi
+Cvalue: 4.0
+Frecuency: 4
+Length: 12
+
+
+
+Term: cuero cabelludo
+Lema: cuer cabellud
+Cvalue: 4.0
+Frecuency: 2
+Length: 16
+
+
+
+Term: valoracion preferente
+Lema: valoracion preferent
+Cvalue: 4.0
+Frecuency: 2
+Length: 22
+
+
+
+Term: cirugia plastica
+Lema: cirugi plastic
+Cvalue: 4.0
+Frecuency: 2
+Length: 17
+
+
+
+Term: bordes asimetricos
+Lema: bord asimetr
+Cvalue: 4.0
+Frecuency: 2
+Length: 19
+
+
+
+Term: lesion ampolla
+Lema: lesion ampoll
+Cvalue: 4.0
+Frecuency: 2
+Length: 15
+
+
+
+Term: cura seca
+Lema: cur sec
+Cvalue: 4.0
+Frecuency: 2
+Length: 10
+
+
+
+Term: melanoma
+Lema: melanom
+Cvalue: 4.0
+Frecuency: 4
+Length: 8
+
+
+
+Term: brazo izquierdo
+Lema: braz izquierd
+Cvalue: 4.0
+Frecuency: 2
+Length: 16
+
+
+
+Term: cura de puntos seca
+Lema: cur de punt sec
+Cvalue: 3.0
+Frecuency: 1
+Length: 22
+
+
+
+Term: parotideso libres de neoplasia
+Lema: parot libr de neoplasi
+Cvalue: 3.0
+Frecuency: 1
+Length: 33
+
+
+
+Term: brazo
+Lema: braz
+Cvalue: 3.0
+Frecuency: 3
+Length: 5
+
+
+
+Term: nevus de color oscuro
+Lema: nevus de color oscur
+Cvalue: 3.0
+Frecuency: 1
+Length: 24
+
+
+
+Term: revision
+Lema: revision
+Cvalue: 3.0
+Frecuency: 3
+Length: 8
+
+
+
+Term: resultado de melanoma
+Lema: result de melanom
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 23
+
+
+
+Term: aparicion de nevus
+Lema: aparicion de nevus
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 20
+
+
+
+Term: centro de salud
+Lema: centr de salud
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 17
+
+
+
+Term: nevus de color
+Lema: nevus de color
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 16
+
+
+
+Term: mitad de puntos
+Lema: mit de punt
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 17
+
+
+
+Term: ganglios centinelas parotideso
+Lema: gangli centinel parot
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 32
+
+
+
+Term: ganglio centinela cura
+Lema: gangli centinel cur
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 24
+
+
+
+Term: extirpacion de ganglio
+Lema: extirpacion de gangli
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 24
+
+
+
+Term: resto de puntos
+Lema: rest de punt
+Cvalue: 2.584962500721156
+Frecuency: 1
+Length: 17
+
+
+
+Term: nevus malanocitico
+Lema: nevus malanocit
+Cvalue: 2.0
+Frecuency: 1
+Length: 19
+
+
+
+Term: adenopatia axilar
+Lema: adenopati axil
+Cvalue: 2.0
+Frecuency: 1
+Length: 18
+
+
+
+Term: puntos seca
+Lema: punt sec
+Cvalue: 2.0
+Frecuency: 1
+Length: 12
+
+
+
+Term: dermastologia melanoma
+Lema: dermastologi melanom
+Cvalue: 2.0
+Frecuency: 1
+Length: 23
+
+
+
+Term: tratamiento
+Lema: tratamient
+Cvalue: 2.0
+Frecuency: 2
+Length: 11
+
+
+
+Term: bordes
+Lema: bord
+Cvalue: 2.0
+Frecuency: 2
+Length: 6
+
+
+
+Term: clark
+Lema: clark
+Cvalue: 2.0
+Frecuency: 2
+Length: 5
+
+
+
+Term: cpa pt
+Lema: cpa pt
+Cvalue: 2.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: parotideso libres
+Lema: parot libr
+Cvalue: 2.0
+Frecuency: 1
+Length: 18
+
+
+
+Term: breston menor
+Lema: breston menor
+Cvalue: 2.0
+Frecuency: 1
+Length: 14
+
+
+
+Term: melanoma malig
+Lema: melanom malig
+Cvalue: 2.0
+Frecuency: 1
+Length: 15
+
+
+
+Term: pt
+Lema: pt
+Cvalue: 2.0
+Frecuency: 2
+Length: 2
+
+
+
+Term: medicina nuclea
+Lema: medicin nucl
+Cvalue: 2.0
+Frecuency: 1
+Length: 16
+
+
+
+Term: informe oncologia
+Lema: inform oncologi
+Cvalue: 2.0
+Frecuency: 1
+Length: 18
+
+
+
+Term: extirpacion
+Lema: extirpacion
+Cvalue: 2.0
+Frecuency: 2
+Length: 11
+
+
+
+Term: color oscuro
+Lema: color oscur
+Cvalue: 2.0
+Frecuency: 1
+Length: 13
+
+
+
+Term: ganglio
+Lema: gangli
+Cvalue: 2.0
+Frecuency: 2
+Length: 7
+
+
+
+Term: tratamiento adyuvante
+Lema: tratamient adyuv
+Cvalue: 2.0
+Frecuency: 1
+Length: 22
+
+
+
+Term: medicina
+Lema: medicin
+Cvalue: 2.0
+Frecuency: 2
+Length: 8
+
+
+
+Term: estadio pt
+Lema: estadi pt
+Cvalue: 2.0
+Frecuency: 1
+Length: 11
+
+
+
+Term: ef nevus
+Lema: ef nevus
+Cvalue: 2.0
+Frecuency: 1
+Length: 9
+
+
+
+Term: melanoma nodular
+Lema: melanom nodul
+Cvalue: 2.0
+Frecuency: 1
+Length: 17
+
+
+
+Term: valoracion
+Lema: valoracion
+Cvalue: 2.0
+Frecuency: 2
+Length: 10
+
+
+
+Term: cirugia
+Lema: cirugi
+Cvalue: 2.0
+Frecuency: 2
+Length: 7
+
+
+
+Term: informe
+Lema: inform
+Cvalue: 2.0
+Frecuency: 2
+Length: 7
+
+
+
+Term: prurito
+Lema: prurit
+Cvalue: 2.0
+Frecuency: 2
+Length: 7
+
+
+
+Term: oncologia
+Lema: oncologi
+Cvalue: 2.0
+Frecuency: 2
+Length: 9
+
+
+
+Term: centinela
+Lema: centinel
+Cvalue: 2.0
+Frecuency: 2
+Length: 9
+
+
+
+Term: brazo izqdo
+Lema: braz izqdo
+Cvalue: 2.0
+Frecuency: 1
+Length: 12
+
+
+
+Term: puntos cura
+Lema: punt cur
+Cvalue: 2.0
+Frecuency: 1
+Length: 12
+
+
+
+Term: hecho ilusiones
+Lema: hech ilusion
+Cvalue: 2.0
+Frecuency: 1
+Length: 16
+
+
+
+Term: ampolla
+Lema: ampoll
+Cvalue: 2.0
+Frecuency: 2
+Length: 7
+
+
+
+Term: cuero
+Lema: cuer
+Cvalue: 2.0
+Frecuency: 2
+Length: 5
+
+
+
+Term: lesion
+Lema: lesion
+Cvalue: 2.0
+Frecuency: 2
+Length: 6
+
+
+
+Term: saludo
+Lema: salud
+Cvalue: 2.0
+Frecuency: 2
+Length: 6
+
+
+
+Term: breston
+Lema: breston
+Cvalue: 2.0
+Frecuency: 2
+Length: 7
+
+
+
+Term: malig
+Lema: malig
+Cvalue: 1.0
+Frecuency: 1
+Length: 5
+
+
+
+Term: en
+Lema: en
+Cvalue: 1.0
+Frecuency: 1
+Length: 2
+
+
+
+Term: lunar
+Lema: lun
+Cvalue: 1.0
+Frecuency: 1
+Length: 5
+
+
+
+Term: intervencion
+Lema: intervencion
+Cvalue: 1.0
+Frecuency: 1
+Length: 12
+
+
+
+Term: neoplasia
+Lema: neoplasi
+Cvalue: 1.0
+Frecuency: 1
+Length: 9
+
+
+
+Term: centro
+Lema: centr
+Cvalue: 1.0
+Frecuency: 1
+Length: 6
+
+
+
+Term: dermastologia
+Lema: dermastologi
+Cvalue: 1.0
+Frecuency: 1
+Length: 13
+
+
+
+Term: seguridad
+Lema: segur
+Cvalue: 1.0
+Frecuency: 1
+Length: 9
+
+
+
+Term: aparicion
+Lema: aparicion
+Cvalue: 1.0
+Frecuency: 1
+Length: 9
+
+
+
+Term: breslow
+Lema: breslow
+Cvalue: 1.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: cpa
+Lema: cpa
+Cvalue: 1.0
+Frecuency: 1
+Length: 3
+
+
+
+Term: ilusiones
+Lema: ilusion
+Cvalue: 1.0
+Frecuency: 1
+Length: 9
+
+
+
+Term: parotideso
+Lema: parot
+Cvalue: 1.0
+Frecuency: 1
+Length: 10
+
+
+
+Term: color
+Lema: color
+Cvalue: 1.0
+Frecuency: 1
+Length: 5
+
+
+
+Term: tamaño
+Lema: tamañ
+Cvalue: 1.0
+Frecuency: 1
+Length: 6
+
+
+
+Term: año
+Lema: año
+Cvalue: 1.0
+Frecuency: 1
+Length: 3
+
+
+
+Term: anpx
+Lema: anpx
+Cvalue: 1.0
+Frecuency: 1
+Length: 4
+
+
+
+Term: estadio
+Lema: estadi
+Cvalue: 1.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: dia
+Lema: dia
+Cvalue: 1.0
+Frecuency: 1
+Length: 3
+
+
+
+Term: tamaão
+Lema: tamaã
+Cvalue: 1.0
+Frecuency: 1
+Length: 6
+
+
+
+Term: exaferesis
+Lema: exaferesis
+Cvalue: 1.0
+Frecuency: 1
+Length: 10
+
+
+
+Term: contraste
+Lema: contr
+Cvalue: 1.0
+Frecuency: 1
+Length: 9
+
+
+
+Term: derma
+Lema: derm
+Cvalue: 1.0
+Frecuency: 1
+Length: 5
+
+
+
+Term: clarkiii
+Lema: clarkiii
+Cvalue: 1.0
+Frecuency: 1
+Length: 8
+
+
+
+Term: aão
+Lema: aão
+Cvalue: 1.0
+Frecuency: 1
+Length: 3
+
+
+
+Term: aspecto
+Lema: aspect
+Cvalue: 1.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: resto
+Lema: rest
+Cvalue: 1.0
+Frecuency: 1
+Length: 5
+
+
+
+Term: nuclea
+Lema: nucl
+Cvalue: 1.0
+Frecuency: 1
+Length: 6
+
+
+
+Term: exploracion
+Lema: exploracion
+Cvalue: 1.0
+Frecuency: 1
+Length: 11
+
+
+
+Term: maãana
+Lema: maã
+Cvalue: 1.0
+Frecuency: 1
+Length: 6
+
+
+
+Term: biopsia
+Lema: biopsi
+Cvalue: 1.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: piel
+Lema: piel
+Cvalue: 1.0
+Frecuency: 1
+Length: 4
+
+
+
+Term: malanocitico
+Lema: malanocit
+Cvalue: 1.0
+Frecuency: 1
+Length: 12
+
+
+
+Term: mitosis
+Lema: mitosis
+Cvalue: 1.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: revison
+Lema: revison
+Cvalue: 1.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: comento
+Lema: coment
+Cvalue: 1.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: topares
+Lema: top
+Cvalue: 1.0
+Frecuency: 1
+Length: 7
+
+
+
+Term: extension
+Lema: extension
+Cvalue: 1.0
+Frecuency: 1
+Length: 9
+
+
+
+Term: salino
+Lema: salin
+Cvalue: 1.0
+Frecuency: 1
+Length: 6
+
+
+
+Term: adenopatia
+Lema: adenopati
+Cvalue: 1.0
+Frecuency: 1
+Length: 10
+
+
+
+Term: mitad
+Lema: mit
+Cvalue: 1.0
+Frecuency: 1
+Length: 5
+
+
+
+Term: hecho
+Lema: hech
+Cvalue: 1.0
+Frecuency: 1
+Length: 5
+
+
+
+Term: resultado
+Lema: result
+Cvalue: 1.0
+Frecuency: 1
+Length: 9
+
+
+
+Term: dias
+Lema: dias
+Cvalue: 1.0
+Frecuency: 1
+Length: 4
+
+
+
+
+
+
+===== TOTAL TERMS: 107 =====
+
+
