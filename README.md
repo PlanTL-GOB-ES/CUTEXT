@@ -1,7 +1,7 @@
 # CUTEXT - Cvalue Used To EXtract Terms
 ---------------------------------------
 
-### Introduction
+## Introduction
 ----------------
 The heavy use of medical terms has motivated the construction of large terminological resources for English, 
 such as the Unified Medical Language System (UMLS) or the Open Biological and Biomedical Ontology (OBO) ontologies. 
@@ -15,8 +15,8 @@ English, Spanish, Galician, and Catalan.
 
 The main characteristics of CUTEXT are the following:
 * It is implemented in java, so it is multiplatform. It has been tested under Windows and Linux.
-* It is multilingual: It has been tested in English, Spanish, Catalan, and Galician.
-* It can be adapted easily to other languages by simply changing the lexical tag text file configuration.
+* It is multilingual: It has been tested in English, Spanish, Catalan, and Galician, and it can be adapted easily to 
+other languages by simply changing the lexical tag text file configuration.
 * The entry documents can be in plain text or in pdf.
 * It can be executed in graphic mode or by console (command line).
 * It supports numerous configuration parameters, among the most important: the language, the tagger, the 
@@ -26,8 +26,8 @@ frequency and c-value thresholds, and the entry of the document/s.
 A more detailed description of the system can be found in the journal [*Sociedad Española para el Procesamiento del Lenguaje Natural*.](http://dx.doi.org/10.26342/2018-61-5)
 
 
-### Prerequisites (Dependency)
-------------------------------
+## Prerequisites
+----------------
 
 CUTEXT requires to have [TreeTagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) installed on your computer.
 If you are going to use medical or biomedical texts it is also convenient, although not necessary, to
@@ -41,8 +41,10 @@ Therefore, the path to this file must be included in the CLASSPATH variable.
 Finally, you must also include in the CLASSPATH variable the path to the "cutext" folder,
 since CUTEXT is packaged at that folder.
 
-### Directory structure
+
+## Directory structure
 ---------
+
 CUTEXT directory structure corresponds to a package nomenclature called *cutext*
 Therefore, all packages are within that folder:
 * cutext/config_files/: includes files with tags, stop-words, and punctuation marks in Spanish, Galician, Catalan, and English.
@@ -65,8 +67,7 @@ Therefore, all packages are within that folder:
 * cutext/util/: contains utility classes.
 
 
-
-### Usage
+## Usage
 ---------
 CUTEXT allows its execution in graphic mode or in text mode.
 In both cases, it is assumed that it will be executed from the "main" folder.
@@ -128,7 +129,7 @@ Options:
 </pre>
 
 
-### Examples
+## Examples
 ------------
 Let's assume an input file "in.txt", in the folder "in", if we execute CUTEXT in text mode:
 <pre>
@@ -142,7 +143,7 @@ java cutext.main.ExecCutext -TM -generateTextFile true -bioc true -json true -in
 </pre>
 
 
-### Execution via JAR file
+## Execution via JAR file
 -----------------------------------
 The cutext.jar file allows to execute CUTEXT directly from a terminal such as cmd, terminator, etc.
 To do this, you have to write the following command line (from the directory where cutext.jar is located):
@@ -177,10 +178,10 @@ java -jar cutext.jar -TM -incremental true -generateTextFile true -inputFile ../
 
 ## Contact
 ----------
-jsantamaria@cnio.es
+Jesús Santamaría (jsantamaria@cnio.es)
 
 
-### License
+## License
 ----------
 
 (This is so-called MIT/X License)
