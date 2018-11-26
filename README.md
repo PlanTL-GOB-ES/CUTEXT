@@ -47,7 +47,8 @@ since CUTEXT is packaged at that folder.
 
 CUTEXT directory structure corresponds to a package nomenclature called *cutext*
 Therefore, all packages are within that folder:
-* cutext/config_files/: includes files with tags, stop-words, and punctuation marks in Spanish, Galician, Catalan, and English.
+<pre>
+* `cutext/config_files/`: includes files with tags, stop-words, and punctuation marks in Spanish, Galician, Catalan, and English.
 * cutext/filter/lin/: contains the Java classes that implement the linguistic filter.
 * cutext/filter/sta/: contains the Java classes that implement the statistical filter.
 * cutext/gui/: contains the Java classes that implement the graphical user interface (GUI).
@@ -65,6 +66,7 @@ Therefore, all packages are within that folder:
 * cutext/stemmer/: contains the classes that allow you to obtain the stem of the words.
 * cutext/textmode/: contains the classes that allow CUTEXT to be executed from the terminal.
 * cutext/util/: contains utility classes.
+</pre>
 
 
 ## Usage
