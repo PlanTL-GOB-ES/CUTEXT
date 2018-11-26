@@ -1,8 +1,8 @@
 # CUTEXT - Cvalue Used To EXtract Terms
----------------------------------------
+
 
 ## Introduction
-----------------
+
 The heavy use of medical terms has motivated the construction of large terminological resources for English, 
 such as the Unified Medical Language System (UMLS) or the Open Biological and Biomedical Ontology (OBO) ontologies. 
 Purely manual construction of terminological resources is by itself very valuable, 
@@ -27,7 +27,6 @@ A more detailed description of the system can be found in the journal [*Sociedad
 
 
 ## Prerequisites
-----------------
 
 CUTEXT requires to have [TreeTagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) installed on your computer.
 If you are going to use medical or biomedical texts it is also convenient, although not necessary, to
@@ -43,12 +42,12 @@ since CUTEXT is packaged at that folder.
 
 
 ## Directory structure
----------
 
 CUTEXT directory structure corresponds to a package nomenclature called *cutext*
 Therefore, all packages are within that folder:
+
 <pre>
-* `cutext/config_files/`: includes files with tags, stop-words, and punctuation marks in Spanish, Galician, Catalan, and English.
+* cutext/config_files/: includes files with tags, stop-words, and punctuation marks in Spanish, Galician, Catalan, and English.
 * cutext/filter/lin/: contains the Java classes that implement the linguistic filter.
 * cutext/filter/sta/: contains the Java classes that implement the statistical filter.
 * cutext/gui/: contains the Java classes that implement the graphical user interface (GUI).
@@ -58,11 +57,11 @@ Therefore, all packages are within that folder:
 * cutext/intern/TT/x/: internal storage of the intermediate file for treetagger.
 * cutext/jar_pdf/: contains the "pdfbox-app-2.0.5.jar" file to convert texts written in pdf to txt. 
 * cutext/main/: includes the main classes of CUTEXT as well as the file cutext.jar.
-* cutext/out/fileTextHashTerms/: store the text output files.
+* cutext/out/fileTextHashTerms/: stores the text output files.
 * cutext/out/serHashTerms/: stores serialized objects. 
 * cutext/postagger/: contains the class that invokes the tagger (TreeTagger). 
 * cutext/prepro/: contains the classes that preprocess the input corpus. 
-* cutext/properties/: contains the CUTEXT properties file.
+* cutext/properties/: contains the CUTEXT property file.
 * cutext/stemmer/: contains the classes that allow you to obtain the stem of the words.
 * cutext/textmode/: contains the classes that allow CUTEXT to be executed from the terminal.
 * cutext/util/: contains utility classes.
@@ -70,7 +69,7 @@ Therefore, all packages are within that folder:
 
 
 ## Usage
----------
+
 CUTEXT allows its execution in graphic mode or in text mode.
 In both cases, it is assumed that it will be executed from the "main" folder.
 If not, change the paths in the properties file "cutext.properties",
@@ -132,34 +131,44 @@ Options:
 
 
 ## Examples
-------------
-Let's assume an input file "in.txt", in the folder "in", if we execute CUTEXT in text mode:
+
+Let's assume an input file "in.txt" in the folder "in", if we execute CUTEXT in text mode:
+
 <pre>
 java cutext.main.ExecCutext -TM -generateTextFile true -inputFile ../in/in.txt
 </pre>
+
 This generates the text files at the folder "cutext/out/fileTextHashTerms" and at "cutext/out/serHashTerms" the serialized terms.
 
-If you want also to obtain outputs in the BioC and JSON formats, then you will have to execute CUTEXT by setting these parameters to TRUE, as in:
+If you also want to obtain outputs in the BioC and JSON formats, then you will have to execute CUTEXT by setting these 
+parameters to TRUE, as in:
+
 <pre>
 java cutext.main.ExecCutext -TM -generateTextFile true -bioc true -json true -inputFile ../in/in.txt
 </pre>
 
 
 ## Execution via JAR file
------------------------------------
+
 The cutext.jar file allows to execute CUTEXT directly from a terminal such as cmd, terminator, etc.
 To do this, you have to write the following command line (from the directory where cutext.jar is located):
+
 <pre>
 java -jar cutext.jar [options]
 </pre>
+
 Where *options* are those shown in the 'Usage' section.
+
 For example, if we type:
 <pre>
 java -jar cutext.jar
 </pre>
+
 CUTEXT will run the graphical interface.
 
-On the other hand, to execute CUTEXT in text mode and with the same parameters as those included in the first example of the previous section, we must type: 
+To execute CUTEXT in text mode and with the same parameters as those included in the first example of the previous 
+section, we must type: 
+
 <pre>
 java -jar cutext.jar -TM -generateTextFile true -inputFile ../in/in.txt
 </pre>
@@ -168,23 +177,34 @@ java -jar cutext.jar -TM -generateTextFile true -inputFile ../in/in.txt
 The cutext.jar file is found at cutext/main/cutext.jar
 
 If we change cutext.jar to another directory, we must change the properties file accordingly, which is at: 
+
 <pre>
 cutext/properties/cutext.properties
 </pre>
 
-Finally, we would like to mention that in the input folder ('cutext/in/in.txt') we include an example of a medical extract, in Spanish. Also in the output folder ('cutext/out/fileTextHashTerms/hsimpli.txt' and at 'cutext/out/fileTextHashTerms/terms_raw.txt') we include the output that CUTEXT generates for that input text. In case you want to reproduce the results obtained, CUTEXT was executed with the following parameters to generate the output text (from cutext/main/):
+Finally, we would like to mention that in the input folder (`cutext/in/in.txt`) we include an example of a medical extract 
+in Spanish. Also in the output folder (`cutext/out/fileTextHashTerms/hsimpli.txt` and at 
+`cutext/out/fileTextHashTerms/terms_raw.txt`) we include the output that CUTEXT generates for that input text. 
+In case you want to reproduce the results obtained CUTEXT was executed with the following parameters to generate the 
+output text (from cutext/main/):
+
 <pre>
 java -jar cutext.jar -TM -incremental true -generateTextFile true -inputFile ../in/in.txt
 </pre>
 
 
+## Reference
+
+Jesús Santamaría, Martin Krallinger: Construcción de recursos terminológicos médicos para el español: el sistema de extracción 
+de términos CUTEXT y los repositorios de términos biomédicos. Procesamiento del Lenguaje Natural, Revista no 61, septiembre de 2018, pp. 49-56. DOI: http://dx.doi.org/10.26342/2018-61-5
+
+
 ## Contact
-----------
+
 Jesús Santamaría (jsantamaria@cnio.es)
 
 
 ## License
-----------
 
 (This is so-called MIT/X License)
 
