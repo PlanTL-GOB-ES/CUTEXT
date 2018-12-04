@@ -107,10 +107,10 @@ contains utility classes.
 ## Usage
 
 CUTEXT allows its execution in graphic mode or in text mode. In both cases, it is assumed that it will be executed 
-from the "main" folder. If not, change the paths in the properties file "cutext.properties" and include the path of 
+from the `main` folder. If not, change the paths in the properties file `cutext.properties` and include the path of 
 this file as an input parameter when invoking CUTEXT.
 We have assumed that the `.java` files have been compiled and the CLASSPATH variable has been fixed correctly. 
-To see a description of this process you can consult the installation file, [Intallation.md.] 
+To see a description of this process you can consult the installation file [Intallation.md.] 
 (https://github.com/PlanTL/CUTEXT/blob/master/Installation.md)
 
 To execute CUTEXT in graphic mode:
@@ -152,7 +152,8 @@ Options:
 -incremental <boolean>
 	If true then execute one line of the file as a entire corpus. Default false.
 -generateTextFile <boolean>
-	If true then create one text file per hashTerms, from 'a' to 'z'. Also create a raw text file with terms sorted by cvalue. Default false.
+	If true then create one text file per hashTerms, from 'a' to 'z'. Also create a raw text file with terms 
+	sorted by cvalue. Default false.
 -routeHashTerms <string>
 	Folder where you want to store the hash terms.
 -routeTextFileHashTerms <string>
@@ -170,17 +171,17 @@ Options:
 
 ## Examples
 
-Let's assume an input file "in.txt" in the folder "in", if we execute CUTEXT in text mode:
+Let's assume an input file `in.txt` in the folder `in`, if we execute CUTEXT in text mode:
 
 <pre>
 java cutext.main.ExecCutext -TM -generateTextFile true -inputFile ../in/in.txt
 </pre>
 
-This generates the text files at the folder "cutext/out/fileTextHashTerms" and at "cutext/out/serHashTerms" 
-the serialized terms.
+This generates the text files at the folder `cutext/out/fileTextHashTerms` and the serialized terms at the folder 
+`cutext/out/serHashTerms`.
 
-If you also want to obtain outputs in the BioC and JSON formats, then you will have to execute CUTEXT by setting these 
-parameters to TRUE, as in:
+If you also want to obtain outputs in the BioC and JSON formats, execute CUTEXT by setting these parameters to TRUE, 
+as in:
 
 <pre>
 java cutext.main.ExecCutext -TM -generateTextFile true -bioc true -json true -inputFile ../in/in.txt
@@ -189,7 +190,7 @@ java cutext.main.ExecCutext -TM -generateTextFile true -bioc true -json true -in
 
 ## Execution via JAR file
 
-The cutext.jar file allows to execute CUTEXT directly from a terminal such as cmd, terminator, etc.
+The `cutext.jar` file allows to execute CUTEXT directly from a terminal such as cmd, terminator, etc.
 To do this, write the following command line (from the directory where cutext.jar is located):
 
 <pre>
@@ -206,26 +207,20 @@ java -jar cutext.jar
 CUTEXT will run the graphical interface.
 
 To execute CUTEXT in text mode and with the same parameters as those included in the first example of the previous 
-section, we must type: 
+section, use the following command: 
 
 <pre>
 java -jar cutext.jar -TM -generateTextFile true -inputFile ../in/in.txt
 </pre>
 
 
-The cutext.jar file is found at cutext/main/cutext.jar
+The `cutext.jar` file is found at the folder `cutext/main/cutext.jar`. If you move it to another directory, change the 
+properties file  (`cutext/properties/cutext.properties`) accordingly.
 
-If we change cutext.jar to another directory, we must change the properties file accordingly, which is at: 
-
-<pre>
-cutext/properties/cutext.properties
-</pre>
-
-Finally, we would like to mention that in the input folder (`cutext/in/in.txt`) we include an example of a medical extract 
-in Spanish. Also in the output folder (`cutext/out/fileTextHashTerms/hsimpli.txt` and at 
-`cutext/out/fileTextHashTerms/terms_raw.txt`) we include the output that CUTEXT generates for that input text. 
-In case you want to reproduce the results obtained CUTEXT was executed with the following parameters to generate the 
-output text (from cutext/main/):
+Finally, in the input folder (`cutext/in/in.txt`) we include an example of a medical extract in Spanish, and in the 
+output folder (`cutext/out/fileTextHashTerms/hsimpli.txt` and `cutext/out/fileTextHashTerms/terms_raw.txt`) we 
+include the output that CUTEXT generates for that input text. To reproduce the results, execute tho following command 
+(from cutext/main/):
 
 <pre>
 java -jar cutext.jar -TM -incremental true -generateTextFile true -inputFile ../in/in.txt
