@@ -107,7 +107,8 @@ contains utility classes.
 ## Usage
 
 ```diff
-- WARNING: CUTEXT deletes the input file once the execution is completed. Please, don't use your original files with CUTEXT.
+- WARNING: CUTEXT deletes the input file once the execution is completed. 
+	Please, don't use your original files with CUTEXT.
 ```
 
 CUTEXT allows its execution in graphic mode or in text mode. In both cases, it is assumed that it will be executed 
