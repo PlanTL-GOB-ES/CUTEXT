@@ -114,8 +114,7 @@ CUTEXT allows its execution in graphic mode or in text mode. In both cases, it i
 from the `main` folder. If not, change the paths in the properties file `cutext.properties` and include the path of 
 this file as an input parameter when invoking CUTEXT.
 We have assumed that the `.java` files have been compiled and the CLASSPATH variable has been fixed correctly. 
-To see a description of this process you can consult the installation file [Intallation.md.] 
-(https://github.com/PlanTL/CUTEXT/blob/master/Installation.md)
+To see a description of this process you can consult the installation file [Intallation.md](https://github.com/PlanTL/CUTEXT/blob/master/Installation.md).
 
 To execute CUTEXT in graphic mode:
 <pre>
