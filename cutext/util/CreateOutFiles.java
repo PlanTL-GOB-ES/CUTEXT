@@ -367,6 +367,7 @@ public class CreateOutFiles
 
 	public static void main(String[] args)
 	{
+/*
 		String routeH = "../../cutext/entrada/hashTermsTemporal/";
 		String routeO = "../../cutext/out/terms-raw.txt";
 		routeH = routeH.replace("/", cutext.util.Estaticos.FILE_SEP);
@@ -381,6 +382,7 @@ public class CreateOutFiles
 		es.cnio.bionlp.recommender.util.Time t = new es.cnio.bionlp.recommender.util.Time();
 		t.conversion(ftime);
 		System.out.println("\n\tRaw file created. Time: " + t.toString());
+*/
 	}
 
 

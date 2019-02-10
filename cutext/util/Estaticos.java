@@ -88,6 +88,7 @@ public class Estaticos
 	//taggers
 	public static final String TT = "TreeTagger";
 	public static final String GT = "GeniaTagger";
+	public static final String FT = "FreelingTagger";
 
 
 
