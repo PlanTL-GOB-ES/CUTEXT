@@ -147,7 +147,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
 			labelTagger.setText("POS Tagger");
 
-			comboTagger.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "TreeTagger", "GeniaTagger" }));
+			comboTagger.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "TreeTagger", "GeniaTagger", "FreelingTagger" }));
 
 			labelFrec.setText("Frecuency Thresold");
 
