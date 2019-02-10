@@ -29,10 +29,10 @@ A more detailed description of the system can be found in the journal [*Sociedad
 ## Prerequisites
 
 CUTEXT requires to have [TreeTagger](http://www.cis.uni-muenchen.de/~schmid/tools/TreeTagger/) installed on your computer.
-If you are going to use medical or biomedical texts it is also convenient, although not necessary, to
-install [GeniaTagger](http://www.nactem.ac.uk/GENIA/tagger/) or another specific tagger of this domain.
-
 The route must also be included in the PATH variable, up to the TreeTagger "bin" folder.
+If you are going to use medical or biomedical texts it is also convenient, although not necessary, to
+install [GeniaTagger](http://www.nactem.ac.uk/GENIA/tagger/) (only valid for biomedical texts in English), or 
+[SPACCC_POS-TAGGER](https://github.com/PlanTL/SPACCC_POS-TAGGER) based on FreeLing (only valid for biomedical texts in Spanish).
 
 To convert texts written in pdf to txt, we use a script that uses the class "ExtractText" of the Apache pdfbox API,
 which is packaged in the "pdfbox-app-2.0.5.jar" file inside into the "jar_pdf" folder. Therefore, the path to this f
