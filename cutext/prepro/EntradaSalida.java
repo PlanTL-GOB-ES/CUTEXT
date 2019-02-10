@@ -181,12 +181,19 @@ public class EntradaSalida implements Serializable
 			String[] result = linea.split("\\s");
 			if(result.length < 3)// linea rara
 				continue;
+			//--- en todos los etiquetadores, la palabra original está en la posición 0
 			String palabra = result[0];
 			//--- treetagger
 			String etiqueta = result[1];
 			String lema = result[2];
 			//--- geniatagger
 			if(datos.getPosTagger().equals(Estaticos.GT))
+			{
+				etiqueta = result[2];
+				lema = result[1];
+			}
+			//--- freelingtagger
+			else if(datos.getPosTagger().equals(Estaticos.FT))
 			{
 				etiqueta = result[2];
 				lema = result[1];

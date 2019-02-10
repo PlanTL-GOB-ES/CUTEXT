@@ -130,16 +130,18 @@ System.out.println("ruta fichero: " + f.getAbsolutePath() + "\n");
 							datos.getEtiquetador(), 
 							datos.getDirectorioIntermedio() + Estaticos.FILE_SEP + tempFile, 
 							datos.getDirectorioSalida(), 
-							datos.getFicheroTagger()
+							datos.getFicheroTagger(),
+							datos.getRutaScriptFreeling()
 			);
 		}
 		else //Linux
 		{
 			cutext.postagger.Etiquetador.ejecutar(
-								datos.getEtiquetadorLinux(), 
-								datos.getDirectorioIntermedio() + Estaticos.FILE_SEP + datos.getFicheroTagger(), 
-								datos.getDirectorioSalida(), 
-								datos.getFicheroTagger()
+							datos.getEtiquetadorLinux(), 
+							datos.getDirectorioIntermedio() + Estaticos.FILE_SEP + datos.getFicheroTagger(), 
+							datos.getDirectorioSalida(), 
+							datos.getFicheroTagger(),
+							datos.getRutaScriptFreeling()
 			);
 		}
 
@@ -187,7 +189,8 @@ System.out.println("ruta fichero: " + f.getAbsolutePath() + "\n");
 							datos.getEtiquetador(), 
 							rute, 
 							datos.getDirectorioSalida(), 
-							datos.getFicheroTagger()
+							datos.getFicheroTagger(),
+							datos.getRutaScriptFreeling()
 			);
 		}
 		else //Linux
@@ -196,7 +199,8 @@ System.out.println("ruta fichero: " + f.getAbsolutePath() + "\n");
 								datos.getEtiquetadorLinux(), 
 								rute, 
 								datos.getDirectorioSalida(), 
-								datos.getFicheroTagger()
+								datos.getFicheroTagger(), 
+								datos.getRutaScriptFreeling()
 			);
 		}
 

@@ -174,7 +174,8 @@ public class DatosEntrada implements Serializable
 
 
 	//POS tagger
-	String posTagger = "TreeTagger";
+	//String posTagger = "TreeTagger";
+	String posTagger = Estaticos.TT;
 
 	//umbrales
 	int umbralFrecuencia = -0; //en el paper 3
@@ -249,6 +250,9 @@ public class DatosEntrada implements Serializable
 				"properties" + 
 				Estaticos.FILE_SEP + 
 				"cutext.properties";
+	
+	
+	String rutaScriptFreeling = ".." + Estaticos.FILE_SEP + "postagger" + Estaticos.FILE_SEP + "scriptFreeling.sh";
 	
 
 	public DatosEntrada()
@@ -571,6 +575,11 @@ public class DatosEntrada implements Serializable
 	{
 		return this.generateTextFile;
 	}
+	
+	public String getRutaScriptFreeling()
+	{
+		return this.rutaScriptFreeling;
+	}
 
 
 
@@ -807,6 +816,14 @@ public class DatosEntrada implements Serializable
 	{
 		this.generateTextFile = generateTextFile;
 	}
+	
+	public void setRutaScriptFreeling(String rutaScriptFreeling)
+	{
+		this.rutaScriptFreeling = rutaScriptFreeling;
+	}
+	
+	
+	
 
 
 	//reboot indexes
@@ -840,8 +857,10 @@ public class DatosEntrada implements Serializable
 
 	public String getEtiquetador(String idioma)
 	{
-		if(this.getPosTagger().equals("GeniaTagger"))
+		if(this.getPosTagger().equals(Estaticos.GT))
 			return "geniatagger";
+		if(this.getPosTagger().equals(Estaticos.FT))
+			return "freelingtagger";
 		for(int i = 0; i < relacionTaggerIdioma.length; i++)
 		{
 			if(relacionTaggerIdioma[i][0].equals(idioma))
@@ -852,8 +871,10 @@ public class DatosEntrada implements Serializable
 
 	public String getEtiquetadorLinux(String idioma)
 	{
-		if(this.getPosTagger().equals("GeniaTagger"))
+		if(this.getPosTagger().equals(Estaticos.GT))
 			return "geniatagger";
+		if(this.getPosTagger().equals(Estaticos.FT))
+			return "freelingtagger";
 		for(int i = 0; i < relacionTaggerLinuxIdioma.length; i++)
 		{
 			if(relacionTaggerLinuxIdioma[i][0].equals(idioma))
