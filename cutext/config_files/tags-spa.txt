@@ -1,7 +1,7 @@
 NC|NP
 NC
 NP
-ADJ
-PREP|PREP/DEL
-VCLIger|VCLIinf|VCLIfin|VEadj|VEfin|VEger|VEinf|VHadj|VHfin|VHger|VHinf|VLadj|VLfin|VLger|VLinf|VMadj|VMfin|VMger|VMinf|VSadj|VSfin|VSger|VSinf
+ADJ|AQ|AO
+PREP|PREP/DEL|SP
+VCLIger|VCLIinf|VCLIfin|VEadj|VEfin|VEger|VEinf|VHadj|VHfin|VHger|VHinf|VLadj|VLfin|VLger|VLinf|VMadj|VMfin|VMger|VMinf|VSadj|VSfin|VSger|VSinf|VMI|VMS|VMM|VMN|VMG|VMP|VAI|VAS|VAM|VAN|VAG|VAP|VSI|VSS|VSM|VSN|VSG|VSP
 PE
