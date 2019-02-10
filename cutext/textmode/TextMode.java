@@ -78,6 +78,8 @@ public class TextMode
 	//config files
 	private static final String RCF = "-routeconfigfiles";
 	private static final String RITT = "-routeinterntt";
+	//freeling script
+	private static final String FREESCRIPT = "-routeFreelingScript";
 	
 	//if this parameter is changed then the properties file will be read and the parameters will be loaded through it
 	private static final String RPROP = "-routeProperties";
@@ -327,6 +329,15 @@ public class TextMode
 					usage();
 				}
 				datos.setRouteTextFileHashTerms(args[i]);
+			}
+			else if(args[i].equals(FREESCRIPT))
+			{
+				i++;
+				if(i >= args.length)
+				{
+					usage();
+				}
+				datos.setRutaScriptFreeling(args[i]);
 			}
 			//delete files
 			//flag
@@ -661,7 +672,7 @@ public class TextMode
 				//
 				+ "  -displayon	<boolean>	: Show the messages at the standard output. Default TRUE (show)\n"
 				//
-				+ "  -postagger	<postagger>		: POS tagger to tagger the input file. TreeTagger (default) or GeniaTagger.\n"
+				+ "  -postagger	<postagger>		: POS tagger to tagger the input file. TreeTagger (default), GeniaTagger, FreelingTagger.\n"
 				+ "  -language	<language>		: SPANISH (default) or ENGLISH, CATALAN, GALICIAN.\n"
 				+ "  -frecT	<integer>		: Frecuency Threshold. Default 0.\n"
 				+ "  -cvalueT	<double>		: C-Value Threshold. Default 0.0.\n"
@@ -677,6 +688,8 @@ public class TextMode
 				//
 				+ "  -routeconfigfiles	<string>		: folder where store config files.\n"
 				+ "  -routeinterntt	<string>		: temporary folder (tt).\n"
+				//
+				+ "  -routeFreelingScript	<string>		: File that executes Freeling Script. Default ../postagger/scriptFreeling.sh.\n"
 				//
 				+ "  -inputFile	<string>		: The document to use\n"
 				+ "  -outputFile	<string>		: The file to write the result to\n\n"
