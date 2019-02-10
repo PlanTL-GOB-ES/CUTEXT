@@ -57,7 +57,7 @@ public class Etiquetador
 
 
 	//public static synchronized void ejecutar(String etiq, String fich, String dirout, String fichtagger)
-	public static void ejecutar(String etiq, String fich, String dirout, String fichtagger)
+	public static void ejecutar(String etiq, String fich, String dirout, String fichtagger, String rutaScriptFreeling)
 	{
 		Runtime aplicacion = Runtime.getRuntime();
 	 	try
@@ -69,6 +69,9 @@ public class Etiquetador
 			String arg[] = new String[2];
 			arg[0] = etiq;
 			arg[1] = fich;
+			
+			
+			
 
 /*
 File f = new File(etiq);
@@ -82,6 +85,15 @@ System.out.println("ruta fichero: " + f.getAbsolutePath());
 
 			if(so.startsWith("WINDOWS"))
 			{
+				//=====
+				if(etiq.equals("freelingtagger"))
+				{
+					System.err.println("\n\t===== Freeling only works under Linux =====\n");
+					System.exit(0);
+				}
+				//=====
+				
+				
 //System.out.println("\tEN WINDOWS\netiq=" + etiq + "\nfich=" + fich + "\nfichtagger=" + fichtagger + "\ndirout=" + dirout);
 				tt = aplicacion.exec("cmd.exe /C " + etiq + " " + 
 							fich  + " " + //+ Estaticos.FILE_SEP + fichtagger + " " + 
@@ -95,7 +107,16 @@ System.out.println("ruta fichero: " + f.getAbsolutePath());
 			
 			// Linux
 			
-			tt = aplicacion.exec(arg);
+			if(etiq.equals("freelingtagger"))
+			{
+				//exec script := script param1 param2 ... paramN
+				//tt = aplicacion.exec("/bin/sh " + ".." + Estaticos.FILE_SEP + "postagger" + Estaticos.FILE_SEP + "scriptFreeling.sh");
+				tt = aplicacion.exec("/bin/sh " + rutaScriptFreeling + " " + fich + " " + dirout + Estaticos.FILE_SEP + fichtagger);
+			}
+			else
+			{
+				tt = aplicacion.exec(arg);
+			}
 
 			BufferedReader stdInput = new BufferedReader(new 
 				                 InputStreamReader(tt.getInputStream()));
@@ -109,7 +130,7 @@ System.out.println("ruta fichero: " + f.getAbsolutePath());
 			{
 				ficheroSalida.escribir(s + "\n");
 				//System.out.println(s);
-		        }
+		    }
 			ficheroSalida.cerrar();
             
 			//read any errors from the attempted command
