@@ -106,10 +106,6 @@ contains utility classes.
 
 ## Usage
 
-```diff
-- WARNING: CUTEXT deletes the input file once the execution is completed. Please, do not use your original files with CUTEXT.
-```
-
 CUTEXT allows its execution in graphic mode or in text mode. In both cases, it is assumed that it will be executed 
 from the `main` folder. If not, change the paths in the properties file `cutext.properties` and include the path of 
 this file as an input parameter when invoking CUTEXT.
@@ -165,18 +161,52 @@ Options:
 	Folder where it stores config files.
 -routeinterntt <string>
 	Temporary folder (TT).
+-routeFreelingScript <string>
+	File that executes Freeling Script (under Linux). Default cutext/postagger/scriptFreeling.sh.
 -inputFile <string>
 	The document to use.
 -outputFile <string>
 	The file to write the result to.
 </pre>
 
+CUTEXT, by default, will delete at the start of the execution the temporary files, and the output files of previous executions.
+To avoid this, a flag called '-deleteFiles' is included, which can be set to false.
+In particular, the parameters related to this deletion are the following:
+
+<pre>
+-deleteFiles <boolean>
+	If true delete the following files at the beginning. Default: TRUE
+</pre>
+**output files**
+<pre>
+-deletePosSer <string>
+	Folder with serializable hashTerms, at postagger folder. Default: ../postagger/serHashTerms/
+-deletePosText <string>
+	Route folder text at postagger folder. Default: ../postagger/fileTextHashTerms/
+-deletePosOutput <string>
+	Route folder output at postagger folder. Default: ../postagger/output/
+-deleteOutSer <string>
+	Route folder hashTerms at cutext folder. Default: ../out/serHashTerms/
+-deleteOutText <string>
+	Route folder text at cutext folder. Default: ../out/fileTextHashTerms/
+</pre>
+**temporary files**
+<pre>
+-deletePosInternOut <string>
+	Route folder intern/out at postagger folder. Default: ../postagger/intern/TT/out/
+-deletePosInternIn <string>
+	Route folder intern/in at postagger folder. Default: ../postagger/intern/TT/in/
+-deletePosInternX <string>
+	Route folder intern/x at postagger folder. Default: ../postagger/intern/TT/x/
+-deleteInternOut <string>
+	Route folder intern/out at cutext folder. Default: ../intern/TT/out/
+-deleteInternIn <string>
+	Route folder intern/in at cutext folder. Default: ../intern/TT/in/
+-deleteInternX <string>
+	Route folder intern/x at cutext folder. Default: ../intern/TT/x/
+</pre>
 
 ## Examples
-
-```diff
-- WARNING: CUTEXT deletes the input file once the execution is completed. Please, do not use your original files with CUTEXT.
-```
 Let's assume an input file `in.txt` in the folder `in`, if we execute CUTEXT in text mode:
 
 <pre>
@@ -195,11 +225,6 @@ java cutext.main.ExecCutext -TM -generateTextFile true -bioc true -json true -in
 
 
 ## Execution via JAR file
-
-```diff
-- WARNING: CUTEXT deletes the input file once the execution is completed. Please, do not use your original files with CUTEXT.
-```
-
 The `cutext.jar` file allows to execute CUTEXT directly from a terminal such as cmd, terminator, etc.
 To do this, write the following command line (from the directory where cutext.jar is located):
 
