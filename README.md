@@ -106,6 +106,10 @@ contains utility classes.
 
 ## Usage
 
+```diff
+- WARNING: CUTEXT deletes the input file once the execution is completed. Please, do not use your original files with CUTEXT.
+```
+
 CUTEXT allows its execution in graphic mode or in text mode. In both cases, it is assumed that it will be executed 
 from the `main` folder. If not, change the paths in the properties file `cutext.properties` and include the path of 
 this file as an input parameter when invoking CUTEXT.
@@ -207,6 +211,9 @@ In particular, the parameters related to this deletion are the following:
 </pre>
 
 ## Examples
+```diff
+- WARNING: CUTEXT deletes the input file once the execution is completed. Please, do not use your original files with CUTEXT.
+```
 Let's assume an input file `in.txt` in the folder `in`, if we execute CUTEXT in text mode:
 
 <pre>
@@ -225,6 +232,9 @@ java cutext.main.ExecCutext -TM -generateTextFile true -bioc true -json true -in
 
 
 ## Execution via JAR file
+```diff
+- WARNING: CUTEXT deletes the input file once the execution is completed. Please, do not use your original files with CUTEXT.
+```
 The `cutext.jar` file allows to execute CUTEXT directly from a terminal such as cmd, terminator, etc.
 To do this, write the following command line (from the directory where cutext.jar is located):
 
