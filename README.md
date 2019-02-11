@@ -177,33 +177,33 @@ In particular, the parameters related to this deletion are the following:
 -deleteFiles <boolean>
 	If true delete the following files at the beginning. Default: TRUE
 </pre>
-**output files**
+**Output Files**
 <pre>
 -deletePosSer <string>
-	Folder with serializable hashTerms, at postagger folder. Default: ../postagger/serHashTerms/
+	Folder with serializable hashTerms, at postagger folder. Default: cutext/postagger/serHashTerms/
 -deletePosText <string>
-	Route folder text at postagger folder. Default: ../postagger/fileTextHashTerms/
+	Route folder text at postagger folder. Default: cutext/postagger/fileTextHashTerms/
 -deletePosOutput <string>
-	Route folder output at postagger folder. Default: ../postagger/output/
+	Route folder output at postagger folder. Default: cutext/postagger/output/
 -deleteOutSer <string>
-	Route folder hashTerms at cutext folder. Default: ../out/serHashTerms/
+	Route folder hashTerms at cutext folder. Default: cutext/out/serHashTerms/
 -deleteOutText <string>
-	Route folder text at cutext folder. Default: ../out/fileTextHashTerms/
+	Route folder text at cutext folder. Default: cutext/out/fileTextHashTerms/
 </pre>
-**temporary files**
+**Temporary Files**
 <pre>
 -deletePosInternOut <string>
-	Route folder intern/out at postagger folder. Default: ../postagger/intern/TT/out/
+	Route folder intern/out at postagger folder. Default: cutext/postagger/intern/TT/out/
 -deletePosInternIn <string>
-	Route folder intern/in at postagger folder. Default: ../postagger/intern/TT/in/
+	Route folder intern/in at postagger folder. Default: cutext/postagger/intern/TT/in/
 -deletePosInternX <string>
-	Route folder intern/x at postagger folder. Default: ../postagger/intern/TT/x/
+	Route folder intern/x at postagger folder. Default: cutext/postagger/intern/TT/x/
 -deleteInternOut <string>
-	Route folder intern/out at cutext folder. Default: ../intern/TT/out/
+	Route folder intern/out at cutext folder. Default: cutext/intern/TT/out/
 -deleteInternIn <string>
-	Route folder intern/in at cutext folder. Default: ../intern/TT/in/
+	Route folder intern/in at cutext folder. Default: cutext/intern/TT/in/
 -deleteInternX <string>
-	Route folder intern/x at cutext folder. Default: ../intern/TT/x/
+	Route folder intern/x at cutext folder. Default: cutext/intern/TT/x/
 </pre>
 
 ## Examples
