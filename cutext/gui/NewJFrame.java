@@ -327,17 +327,11 @@ public class NewJFrame extends javax.swing.JFrame {
 		botonSelect.addActionListener(aLbotonExaminar);
 
 
-
-
-		this.setIconImage(
-			crearImageIcon(".." + 
-							Estaticos.FILE_SEP + 
-							"gui" + 
-							Estaticos.FILE_SEP + 
-							"logo" + 
-							Estaticos.FILE_SEP + 
-							"logo.jpg", 
-							"logotipo de CUTEXT").getImage());
+		String logoCutext = ".." + Estaticos.FILE_SEP + "gui" + Estaticos.FILE_SEP + "logo" + Estaticos.FILE_SEP + "logo.jpg";
+		this.setIconImage(Toolkit.getDefaultToolkit().getImage(logoCutext));
+/*
+		this.setIconImage(crearImageIcon(logoCutext, "logotipo de CUTEXT").getImage());
+*/
 
 
 
