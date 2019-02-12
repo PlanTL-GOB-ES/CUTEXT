@@ -136,6 +136,7 @@ public class Cutext// extends Thread
 		String onlyFile = "temp.txt";
 		this.datos.setFicheroTagger(onlyFile);
 		this.datos.setDirectorioEntrada(datos.getDirectorioIntermedio());
+		//this.datos.setInputFolder(datos.getDirectorioIntermedio());
 		int itemp = 0;
 		int ifile = 1;
 		int itempthre = 30000;
@@ -219,10 +220,24 @@ public class Cutext// extends Thread
 
 	public void reboot()
 	{
+		if(!this.datos.isIncremental()) //si es incremental ya se hace en el método "execInIncrementalMode()"
+		{
+			this.datos.setDirectorioEntrada(datos.getDirectorioIntermedio());
+		}
+		//
 		this.frases = null;
+		/*
+		System.out.println("\n\t\t==================================== REBOOT =============================================\n");
+		System.out.println("entrada = " + this.datos.getDirectorioEntrada());
+		System.out.println("intermedio = " + this.datos.getDirectorioIntermedio());
+		System.out.println("salida = " + this.datos.getDirectorioSalida());
+		System.out.println("\n\t\t==================================== END REBOOT =============================================\n");
+		*/
+		///*
 		deleteFiles(this.datos.getDirectorioEntrada());
 		deleteFiles(this.datos.getDirectorioIntermedio());
 		deleteFiles(this.datos.getDirectorioSalida());
+		//*/
 		this.datos.rebootIndexes();
 	}
 
